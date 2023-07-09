@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+ font-family: 'Work Sans', sans-serif;
+   
+}
+header{
+    background-image: url('/images/banner/banner2.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner{
+  text-align: right;
+  padding: 210px 230px 260px 0; 
+}
+.banner-title{
+    color:  #151414;
+    text-align: right;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.banner-description{
+    color: var(--dark-02, #444343);
+    text-align: right;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #F15B22;
+    border: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 15px 35px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
